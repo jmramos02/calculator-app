@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class = "header">
+		<h1 id = "application-name">Hello World</h1>
+	</div>
+
+	<div class = "body">
+		<input type="text" id = "num-1">
+		<select name="operator" id="operator">
+			<option value="1">+</option>
+			<option value="2">-</option>
+			<option value="3">*</option>
+			<option value="4">/</option>
+		</select>
+		<input type="text" id = "num-2">
+		<div id = "answer">
+		
+		</div>
+		<button class = "my-button" onclick="compute()">Compute</button>
+	</div>
+
+	<script src = "core.js"></script>
+	</body>
+</html>
